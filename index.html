@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="flex-row header__row">
+                <!-- Burger menu for adaptive version -->
+              
+                <span class="header__logo">
+                    Portfolio
+                </span>
+                <svg class="header__burger-menu" width="24" height="14" viewBox="0 0 24 14" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 1.5H0V0H24V1.5ZM24 13.5H0V12H24V13.5ZM24 7.48828H0V6H24V7.48828Z" />
+            </svg>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item"><a href="#" class="header__link">Home</a></li>
+                        <li class="header__item"><a href="#about" class="header__link">About</a></li>
+                        <li class="header__item"><a href="#skills" class="header__link">Skills</a></li>
+                        <li class="header__item"><a href="#portfolio" class="header__link">Portfolio</a></li>
+                        <li class="header__item"><a href="#contact" class="header__link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <article class="hero" id="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Hi, It’s Théophile Seyrig</h1>
+                    <p class="hero__text">Designer from Porto, Portugal</p>
+                    <a href="#portfolio" class="hero__link">Latest works</a>
+                </div>
+            </div>
+        </article>
+        <article class="about" id="about">
+            <div class="container">
+                <h3 class="about__title section__title">About</h3>
+                <p class="about__text">
+                    Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam
+                    penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed.
+                    Consectetur adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet
+                    mollis.
+                    <br><br>
+                    Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in
+                    rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit.
+                    Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis. diam penatibus aliquet
+                    tellus, in rutrum augue. Pellentesque.
+                </p>
+            </div>
+        </article>
+
+        <article class="skills" id="skills">
+            <div class="container">
+                <h3 class="skills__title section__title">Skills</h3>
+                <div class="flex-row">
+                    <div class="col-5">
+                        <section class="skills__img">
+                            <img src="./images/png/profile-picpng.png" alt="Profile picture">
+                        </section>
+                    </div>
+                    <div class="col-7">
+                        <table class="skills__table">
+                            <tr class="skills__tr--first">
+                                <th class="col-4">Profile</th>
+                                <td class="col-8">UI / UX Engineer, Front-end Developer</td>
+                            </tr>
+                            <tr>
+                                <th>UX Research</th>
+                                <td>
+                                    <div class="skills__level"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Tools</th>
+                                <td>Paper, Pen, Balsamiq</td>
+                            </tr>
+                            <tr>
+                                <th>UI Design</th>
+                                <td>
+                                    <div class="skills__level"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Tools</th>
+                                <td>Adobe PS, AI, XD, Figma, InVision</td>
+                            </tr>
+                            <tr>
+                                <th>UI Design</th>
+                                <td>
+                                    <div class="skills__level"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Front-end Dev</th>
+                                <td>HTML, CSS, JS, Bootstrap, React</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="portfolio" id="portfolio">
+            <div class="container">
+                <h3 class="portfolio__title section__title">Portfolio</h3>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <h4 class="portfolio__subtitle">UX Research</h4>
+                            <div class="flex-row">
+                                <div class="col-5">
+                                    <p class="portfolio__text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam odio
+                                        cursus id.
+                                        Diam massa semper a tincidunt cursus ultricies lectus eget urna.
+                                    </p>
+                                </div>
+                                <div class="col-7">
+                                    <div class="flex-row">
+
+                                        <div class="portfolio__img--left">
+                                            <img src="./images/png/photo1.png" class="portfolio__img1">
+                                            <img src="./images/png/photo2.png" class="portfolio__img2">
+                                        </div>
+
+
+                                        <div class="portfolio__img--right">
+                                            <img src="./images/png/photo3.png" class="portfolio__img1">
+                                            <img src="./images/png/photo4.png" class="portfolio__img2">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <h4 class="portfolio__subtitle">UX Research</h4>
+                            <div class="flex-row">
+                                <div class="col-5">
+                                    <p class="portfolio__text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam odio
+                                        cursus id.
+                                        Diam massa semper a tincidunt cursus ultricies lectus eget urna.
+                                    </p>
+                                </div>
+                                <div class="col-7">
+                                    <div class="flex-row portfolio__row">
+
+                                        <div class="portfolio__img--left">
+                                           <div class="portfolio__img1">
+                                            <img src="./images/png/photo1.png">
+                                           </div>
+                                           <div class="portfolio__img2">
+                                            <img src="./images/png/photo2.png">
+                                           </div>
+                                        </div>
+                                        <div class="portfolio__img--right">
+                                            <div class="portfolio__img1">
+                                                <img src="./images/png/photo3.png">
+                                               </div>
+                                               <div class="portfolio__img2">
+                                                <img src="./images/png/photo4.png">
+                                               </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-row">
+                        <svg class="swiper-button-prev" width="14" height="24" viewBox="0 0 14 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.9102 23.9648L0.933594 12L12.9102 0.0351562L13.9648 1.08984L3.06641 12L13.9648 22.9102L12.9102 23.9648Z" />
+                        </svg>
+                        <svg class="swiper-button-next" width="14" height="24" viewBox="0 0 14 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.0351562 22.9102L10.9336 12L0.0351562 1.08984L1.08984 0.0351562L13.0664 12L1.08984 23.9648L0.0351562 22.9102Z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <h3 class="footer__title section__title">
+                Get in Touch
+            </h3>
+            <div class="flex-row">
+                <div class="col-4 footer__item">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">Dribbble</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Behance</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">CodePen</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">GitHub</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Medium</a></li>
+                    </ul>
+                </div>
+                <div class="col-4 footer__item">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">Linkedin</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Facebook</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Instagram</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="col-4 footer__item">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">seyrig@mailme.com</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">+ 55 6645 665544</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+</body>
+
+</html>

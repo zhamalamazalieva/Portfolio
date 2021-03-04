@@ -1,0 +1,80 @@
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    padding-top: 100px;
+    width: 100%;
+    &__row{
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list{
+        display: flex;
+    }
+    &__item{
+        margin-left:60px;
+    }
+    &__item:first-child{
+        margin-left: 0;
+    }
+    &__link{
+        @include font($libre, normal, 18px, 1.0);
+        color: $color-white;
+    }
+    &__logo{
+        @include font($libre, bold, 24px, 1.0);
+        color: $color-white;
+    }
+    &__burger-menu{
+        display: none;
+        width: 54px;
+        height: 44px;
+        fill: $color-white;
+    }
+    
+}
+
+//MEDIA QUERIES
+@media screen and (max-width:768px){
+    .header{
+        padding-top:20px;
+     
+        &__nav{
+            display: none;
+        }
+        &__burger-menu{
+            display: block;
+            fill: $color-white;
+        }
+        &__logo{
+            margin: 0 auto;
+        }
+        &__row{
+            justify-content: start;
+        }
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .header{
+        padding-top: 70px;
+        &__nav{
+            display: none;
+        }
+        &__burger-menu{
+            display: block;
+            fill: $color-white;
+
+        }
+        &__item{
+            margin-left:px;
+        }
+        &__logo{
+          font-size: 55px;
+        }
+        }
+}
