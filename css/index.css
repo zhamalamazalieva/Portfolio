@@ -28,7 +28,9 @@
 }
 
 @media screen and (max-width: 768px) {
-  .col-6, .col-5, .col-7 {
+  .col-6,
+  .col-5,
+  .col-7 {
     width: 100%;
   }
   .col-4 {
@@ -37,7 +39,9 @@
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  .col-5, .col-8, .col-7 {
+  .col-5,
+  .col-8,
+  .col-7 {
     width: 100%;
   }
 }
@@ -46,19 +50,87 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -68,8 +140,17 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -77,17 +158,21 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 
@@ -111,7 +196,7 @@ html {
 }
 
 body {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   color: #333333;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -261,7 +346,6 @@ img {
 
 .hero {
   background-image: url("../images/png/bg.png");
-  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -462,7 +546,8 @@ img {
     max-height: 85%;
     margin: 0 auto 25px;
   }
-  .skills th, .skills td {
+  .skills th,
+  .skills td {
     font-size: 12px;
   }
   .skills th {
@@ -553,14 +638,16 @@ img {
   width: 41.666%;
 }
 
-.portfolio .swiper-button-prev, .portfolio .swiper-button-next {
+.portfolio .swiper-button-prev,
+.portfolio .swiper-button-next {
   top: 97% !important;
   height: 24px;
   width: 24px;
   margin-bottom: 15px;
 }
 
-.portfolio .swiper-button-prev, .portfolio .swiper-button-next {
+.portfolio .swiper-button-prev,
+.portfolio .swiper-button-next {
   fill: #333333;
 }
 
@@ -610,13 +697,15 @@ img {
   .portfolio .swiper-container {
     max-height: 420px;
   }
-  .portfolio .swiper-button-prev, .portfolio .swiper-button-next {
+  .portfolio .swiper-button-prev,
+  .portfolio .swiper-button-next {
     top: 97% !important;
     height: 24px;
     width: 24px;
     margin-bottom: 15px;
   }
-  .portfolio .swiper-button-prev, .portfolio .swiper-button-next {
+  .portfolio .swiper-button-prev,
+  .portfolio .swiper-button-next {
     fill: #333333;
     display: none;
   }
