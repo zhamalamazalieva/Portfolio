@@ -489,6 +489,11 @@ img {
 
 .skills__img {
   max-width: 85%;
+  height: 85%;
+}
+
+.skills__img img {
+  max-height: 100%;
 }
 
 .skills__table {

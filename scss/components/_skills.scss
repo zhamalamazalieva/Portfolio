@@ -7,6 +7,10 @@
   }
   &__img {
     max-width: 85%;
+    height: 85%;
+  }
+  &__img img{
+    max-height: 100%;
   }
   &__table {
     width: 100%;
