@@ -20,7 +20,6 @@
         height: 100%;
         background-color: rgba($color-brown, $alpha: .3);
     }
-  
     &__title{
         @include font($libre, normal, 64px, 1.1);
         color: $color-white
