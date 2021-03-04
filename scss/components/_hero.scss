@@ -20,13 +20,7 @@
         height: 100%;
         background-color: rgba($color-brown, $alpha: .3);
     }
-    &__content{
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
-        // height: 100%;
-        // padding-top: 255px;
-    }
+  
     &__title{
         @include font($libre, normal, 64px, 1.1);
         color: $color-white
